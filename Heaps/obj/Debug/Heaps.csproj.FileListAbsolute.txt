@@ -1,0 +1,7 @@
+C:\Users\IGNITER\source\repos\Heaps\Heaps\obj\Debug\Heaps.csprojAssemblyReference.cache
+C:\Users\IGNITER\source\repos\Heaps\Heaps\obj\Debug\Heaps.csproj.CoreCompileInputs.cache
+C:\Users\IGNITER\source\repos\Heaps\Heaps\bin\Debug\Heaps.exe.config
+C:\Users\IGNITER\source\repos\Heaps\Heaps\bin\Debug\Heaps.exe
+C:\Users\IGNITER\source\repos\Heaps\Heaps\bin\Debug\Heaps.pdb
+C:\Users\IGNITER\source\repos\Heaps\Heaps\obj\Debug\Heaps.exe
+C:\Users\IGNITER\source\repos\Heaps\Heaps\obj\Debug\Heaps.pdb
