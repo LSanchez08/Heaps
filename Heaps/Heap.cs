@@ -38,12 +38,6 @@ namespace Heaps
             Height = GetHeightOfIndex(Size - 1);
             valores = data;
             Heapify(1);
-
-            //foreach(T value in data)
-            //{
-            //    if (Comparer<T>.Default.Compare(first, value) == 1 ) { first = value; }
-            //}
-            //MinData = first;
         }
 
 
@@ -251,7 +245,6 @@ namespace Heaps
         private int getParentIndex(int index) => (index-1)/2;
         private int getLeftChildIndex(int index) => (2*index)+1;
         private int getRightChildIndex(int index) => (2*index)+2;
-
         public double GetHeightOfIndex(int index) => Math.Round(Math.Truncate(Math.Log((index + 1), 2)));
 
         public override string ToString() => string.Join( ",", valores.ToArray());
