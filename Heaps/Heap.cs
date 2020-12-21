@@ -40,6 +40,10 @@ namespace Heaps
             Heapify(1);
         }
 
+        private int getParentIndex(int index) => (index - 1) / 2;
+        private int getLeftChildIndex(int index) => (2 * index) + 1;
+        private int getRightChildIndex(int index) => (2 * index) + 2;
+        public double GetHeightOfIndex(int index) => Math.Round(Math.Truncate(Math.Log((index + 1), 2)));
 
         public void Insert(T element)
         {
@@ -242,10 +246,7 @@ namespace Heaps
         }
 
 
-        private int getParentIndex(int index) => (index-1)/2;
-        private int getLeftChildIndex(int index) => (2*index)+1;
-        private int getRightChildIndex(int index) => (2*index)+2;
-        public double GetHeightOfIndex(int index) => Math.Round(Math.Truncate(Math.Log((index + 1), 2)));
+        
 
         public override string ToString() => string.Join( ",", valores.ToArray());
     }
