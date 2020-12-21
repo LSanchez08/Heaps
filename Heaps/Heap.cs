@@ -45,6 +45,7 @@ namespace Heaps
         private int getRightChildIndex(int index) => (2 * index) + 2;
         public double GetHeightOfIndex(int index) => Math.Round(Math.Truncate(Math.Log((index + 1), 2)));
 
+
         public void Insert(T element)
         {
             valores.Add(element);
